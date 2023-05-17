@@ -1,0 +1,36 @@
+
+body {
+    background-color: aquamarine;
+}
+.text {
+    width: 600px;
+    background-color: peachpuff;
+    padding: 0px 20px 20px 20px;
+    border: 5px solid black;
+    margin: 0 auto;
+    font-size: 16px;
+    line-height: 2;
+    letter-spacing: 1px;
+    font-family: sans-serif;
+}
+.title {
+    font-size: 60px;
+    text-align: center;
+    text-shadow: 3px 3px 1px black;
+    padding: 20px;
+    color: aqua;
+}
+
+.image {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.list ol {
+    list-style-type: circle; 
+  }
+
+.main1 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}

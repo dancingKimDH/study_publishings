@@ -1,0 +1,30 @@
+.verse {
+    color: yellow;
+    text-align: center;
+
+}
+
+.zero {
+    color: blue
+}
+
+.singing {
+    color: blueviolet;
+    font-size: 20px;
+
+}
+
+.first {
+    color: green;
+}
+
+body {
+    background-color: burlywood;
+}
+/* shadow */
+.text_effect {
+    font-weight: 900;
+    font-size: 20px;
+    color: coral;
+    text-shadow: 5px 5px 5px black;
+}
