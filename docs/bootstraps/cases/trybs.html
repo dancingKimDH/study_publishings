@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Page</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../css/commons.css">
+</head>
+
+<body>
+
+    <div class="overalltext"> <!--전체contents-->
+        <div class="container-fluid p-5 text-center text-white bg-primary">
+            <div class="fs-1"> <!--headline-->
+                My First Bootstrap 5 Page
+            </div>
+            <div class="fs-8 pt-2">
+                Resize this responsive page to see the effect!
+            </div>
+        </div>
+
+        <div class="menubar"> <!--메뉴바-->
+            <ul class="nav navbar-expand-sm justify-content-start
+             bg-dark navbar-dark text-white">
+                <li class="nav-item">
+                    <a class="nav-link text-white" area-current="page" href="#">Active</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href style="color: #f3f2f2fb;">Link</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href style="color: #f3f2f2fb;">Link</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled">Disabled</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="container mt-5"> <!--본문이 들어가는 자리-->
+            <div class="row">
+                <div class="col-4">
+                    <h3>
+                        About Me
+                    </h3>
+                    <h4>
+                        Photo of Me
+                    </h4>
+                    <div>
+                        <img class="auto_width" src="https://picsum.photos/200/300" alt="Random Image 1" height="220px">
+                    </div>
+                    This is not a photo of me but a randommly generated picture online.
+                </div>
+                <div class="col-8">
+                    <h3>
+                        TITLE HEADING
+                    </h3>
+                    <h4>
+                        Title Description, May 21, 2023
+                    </h4>
+                    <img class="auto_width" src="https://picsum.photos/500/300" alt="Random Image 2" height="220px">
+                    <div>
+                        This is another randomly selected picture!
+                    </div>
+                </div>
+
+                <div class="container row mt-5">
+                    <div class="col-4">
+                        <h3>
+                            Links
+                        </h3>
+                        <h4>
+                            Links are provided below
+                        </h4>
+                        <ul class="nav nav-pills flex-column">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Active</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Link</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Link</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link disabled">Disabled</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-8">
+                        <h3>
+                            TITLE HEADING
+                        </h3>
+                        <h4>
+                            Title Description, May 21, 2023
+                        </h4>
+                        <img class="auto_width" src="https://picsum.photos/500/300" alt="Random photo 3" height="220px">
+                        <div class="pb-5">
+                            This is the last random photo provided on this website! Thank you for reading.
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid pb-3 text-center text-white bg-dark"> <!--footer-->
+        Footer
+    </div>
+</body>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+</html>
