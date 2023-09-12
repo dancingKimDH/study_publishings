@@ -1,0 +1,139 @@
+.header {
+    grid-area: header;
+}
+
+.sidebar_a {
+    grid-area: sidebar_a;
+}
+
+.mainpage {
+    grid-area: mainpage;
+}
+
+.sidebar_b {
+    grid-area: sidebar_b;
+}
+
+.footer {
+    grid-area: footer;
+}
+
+.container {
+    min-width: 800px;
+    grid-template-areas:
+        "img header logo"
+        "greetings navbar rightbar"
+        "sidebar_a mainpage sidebar_b"
+        ". . ."
+        "footer footer footer";
+    display: grid;
+    margin: auto;
+    grid-template-rows: 2fr 1fr 4fr 1fr 1fr;
+    grid-template-columns: 1fr 3fr 1fr;
+}
+
+
+.main_img {
+    height: 150px;
+    width: 200px;
+    float: right;
+    grid-column-start: 1;
+    resize: none;
+}
+
+.img_box {
+    max-height: 150px;
+    background-color: darkslategray;
+    display: flex;
+    min-height: 100px;
+
+}
+
+.header {
+    background-color: darkslategray;
+    font-size: 18px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    max-height: 150px;
+    min-width: 500px;
+    min-height: 100px;
+    color: whitesmoke;
+    font-size: 40px;
+    font-weight: bolder;
+    overflow: hidden;
+}
+
+.head_text {
+    text-align: center;
+}
+
+.logo {
+    background-color: darkslategray;
+    max-height: 150px;
+}
+
+.img_2 {
+    height: 150px;
+    width: 200px;
+    grid-column-end: 1;
+    float: right;
+    justify-content: center;
+}
+
+.main {
+    background-color: darkslategrey;
+}
+
+.greetings{
+    display: flex;
+    place-items: center;
+    background-color: grey;
+    color: blanchedalmond;
+    font-weight: bold;
+    height: 50px;
+}
+
+.greetingtext {
+    padding-left: 50px;
+}
+
+.navbar{
+    display: flex;
+    float: right;
+    font-size: 15px;
+    justify-content: center;
+    background-color: grey;
+    height: 50px;
+    min-width: 300px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    display: inline-block;
+    color: black;
+    padding: 10px;
+}
+
+ul li a {
+    float: right;
+    text-decoration: none;
+    color: whitesmoke;
+    border-radius: 40%;
+    padding: 3px;
+    font-weight: bold;
+}
+
+.rightbar {
+    background-color: grey;
+    height: 50px;
+}
+
+.sidebar_a {
+    
+}
