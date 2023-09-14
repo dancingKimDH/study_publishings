@@ -1,3 +1,10 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+
 .header {
     grid-area: header;
 }
@@ -92,6 +99,7 @@
     color: blanchedalmond;
     font-weight: bold;
     height: 50px;
+
 }
 
 .greetingtext {
@@ -100,6 +108,7 @@
 
 .navbar{
     display: flex;
+    width: 100%;
     float: right;
     font-size: 15px;
     justify-content: center;
@@ -118,22 +127,72 @@ ul li {
     display: inline-block;
     color: black;
     padding: 10px;
+
+
 }
+
 
 ul li a {
     float: right;
     text-decoration: none;
     color: whitesmoke;
-    border-radius: 40%;
     padding: 3px;
     font-weight: bold;
+
 }
 
 .rightbar {
+    display: flex;
+    float: right;
     background-color: grey;
     height: 50px;
+    overflow: hidden;
+    text-overflow: clip;
+    white-space: nowrap;
 }
 
-.sidebar_a {
-    
+.sidebar_a{
+    grid-auto-flow: row dense;
+}
+
+.search_bar{
+    height: 30px;
+    width: 200px;
+    margin: 10px auto;
+    background-color: antiquewhite;
+}
+
+.fa-magnifying-glass {
+    position: absolute;
+    float: right;
+}
+
+.imagehelp {
+    display:flex;
+    float:right;
+    align-items: center;
+    justify-content: center;
+}
+
+.search {
+    width: 150px;
+    outline: none;
+    float: left;
+    padding: 7px;
+    border: none;
+    background-color: antiquewhite;
+}
+
+.search_button {
+    float: right;
+    padding: 5px;
+    border: none;
+    width: 17%;
+    background-color: antiquewhite;
+    outline: none;
+}
+
+.buttons{
+    padding: 5px;
+    margin: 13px;
 }
