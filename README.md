@@ -12,7 +12,7 @@ How to adopt Bootstrap in the HTMLs
 
 Section | Link
 --- | ---
-Buttons | [HTML](docs\bootstraps\buttons.html)
+Buttons | [HTML](docs/bootstraps/buttons.html)
 Cards | ---
 Carousels | ---
 Dropdowns | ---
