@@ -36,6 +36,16 @@ Internal / External CSSs| ---
 Texts | ---
 Units | ---
 
+## Practice
+
+1. Practice
+
+2. Flex and Grid
+
+https://user-images.githubusercontent.com/132973383/268162794-3dce305d-ef2c-4ef2-9119-525c13fc2939.PNG
+
+3. 
+
 ## Roadmap
 
 - 수업을 통해 기본적인 HTML/CSS/Bootstrap 내용을 이해할 수 있었다.
@@ -46,5 +56,7 @@ Units | ---
 -  Throughout the course, I learned the basics of HTML, CSS, and Bootstrap. 
 - This got me interested in front-end work, so I decided to pursue a career in this field. 
 - I registered for another online course to improve my front-end skills for the future.
+
+
 
 
