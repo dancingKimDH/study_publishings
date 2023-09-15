@@ -42,11 +42,13 @@ Units | [HTML](docs/CSSs/units.html)
 
 ![text](https://github.com/dancingKimDH/study_publishings/assets/132973383/f5cbe34d-dbdb-4404-a054-94ef6c1c8a3e)
 
-3. Flex and Grid
+2. Flex and Grid_1
 
 [ ![initial](https://user-images.githubusercontent.com/132973383/268162794-3dce305d-ef2c-4ef2-9119-525c13fc2939.PNG)](https://github.com/dancingKimDH/study_publishings/issues/1#issue-1897633728)
 
-3. 
+3. Flex and Grid_2
+
+![first bootstrap](https://github.com/dancingKimDH/study_publishings/assets/132973383/c6bd6ec3-bf44-4d29-8fa1-df869b13dcd1)
 
 ## Roadmap
 
