@@ -39,8 +39,7 @@ Units | ---
 ## Practice
 
 1. Text
-
- https://github.com/dancingKimDH/study_publishings/issues/2#issue-1897637652
+![text](https://github.com/dancingKimDH/study_publishings/assets/132973383/f5cbe34d-dbdb-4404-a054-94ef6c1c8a3e)
 
 3. Flex and Grid
 
