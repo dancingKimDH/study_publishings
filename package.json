@@ -1,0 +1,19 @@
+{
+  "name": "study_publishings",
+  "version": "1.0.0",
+  "description": "- 빅데이터 자바Java 파이썬Python S/W 개발자 양성과정(의료 빅데이터) 수업",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "dev": "parcel /Develops/study_publishings/practice/docs/practice_grid_1.html",
+    "build:": "parcel build /Develops/study_publishings/practice/docs/practice_grid_1.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.9.3"
+  }
+}

@@ -2,6 +2,13 @@ body {
     margin: 0;
     padding: 0;
     overflow: hidden;
+    width: 100%;
+    height: 100%;
+    background-color: grey;
+}
+
+* {
+    box-sizing: border-box;
 }
 
 
@@ -25,31 +32,37 @@ body {
     grid-area: footer;
 }
 
+.blank {
+    grid-area: blank;
+}
+
 .container {
-    min-width: 800px;
     grid-template-areas:
         "img header logo"
         "greetings navbar rightbar"
         "sidebar_a mainpage sidebar_b"
-        ". . ."
+        "blank blank blank"
         "footer footer footer";
     display: grid;
-    margin: auto;
-    grid-template-rows: 2fr 1fr 4fr 1fr 1fr;
-    grid-template-columns: 1fr 3fr 1fr;
+    margin:0;
+    height: 100%;
+    width: 100%;
+    white-space: nowrap;
+    grid-template-rows: 2fr 0fr 4fr 0.56fr 1fr;
+    grid-template-columns: 2fr 6fr 2fr;
 }
 
 
 .main_img {
-    height: 150px;
-    width: 200px;
+    height: 100%;
+    width: 100%;
     float: right;
     grid-column-start: 1;
     resize: none;
 }
 
 .img_box {
-    max-height: 150px;
+    max-height: 100%;
     background-color: darkslategray;
     display: flex;
     min-height: 100px;
@@ -61,12 +74,12 @@ body {
     font-size: 18px;
     justify-content: center;
     display: flex;
+    width: 100%;
     align-items: center;
-    max-height: 150px;
-    min-width: 500px;
+    min-height: 300px;
     min-height: 100px;
     color: whitesmoke;
-    font-size: 40px;
+    font-size: 4vw;
     font-weight: bolder;
     overflow: hidden;
 }
@@ -77,12 +90,11 @@ body {
 
 .logo {
     background-color: darkslategray;
-    max-height: 150px;
 }
 
 .img_2 {
-    height: 150px;
-    width: 200px;
+    height: 100%;
+    width: 100%;
     grid-column-end: 1;
     float: right;
     justify-content: center;
@@ -94,12 +106,13 @@ body {
 
 .greetings{
     display: flex;
-    place-items: center;
+    align-items: center;
     background-color: grey;
     color: blanchedalmond;
     font-weight: bold;
     height: 50px;
-
+    justify-content: center;
+    border: solid 2px darkslategray;
 }
 
 .greetingtext {
@@ -115,6 +128,7 @@ body {
     background-color: grey;
     height: 50px;
     min-width: 300px;
+    border: solid 2px whitesmoke;
 }
 
 ul {
@@ -142,23 +156,30 @@ ul li a {
 }
 
 .rightbar {
+    width: 100%;
+    margin-right: 10px;
     display: flex;
-    float: right;
+    justify-content: center;
+    text-align: center;
     background-color: grey;
     height: 50px;
-    overflow: hidden;
-    text-overflow: clip;
-    white-space: nowrap;
+    border: solid 2px darkslategray;
 }
 
 .sidebar_a{
+    /* display: flex; */
     grid-auto-flow: row dense;
+    width: auto;
+    max-width: 500px;
+    height: auto;
+    border: 1px solid white;
 }
 
 .search_bar{
-    height: 30px;
-    width: 200px;
-    margin: 10px auto;
+    display: flex;
+    height: 40px;
+    width: auto;
+    margin: 0;
     background-color: antiquewhite;
 }
 
@@ -167,32 +188,97 @@ ul li a {
     float: right;
 }
 
-.imagehelp {
-    display:flex;
-    float:right;
+.searching {
+    width: auto;
     align-items: center;
-    justify-content: center;
+    text-align: center;
 }
 
 .search {
-    width: 150px;
+    margin-top: 5px;
+    font-size: 16px;
     outline: none;
+    width: 75%;
     float: left;
     padding: 7px;
     border: none;
     background-color: antiquewhite;
 }
 
-.search_button {
-    float: right;
-    padding: 5px;
+.searchbtn {
+    height: 100%;
+    width: 25%;
     border: none;
-    width: 17%;
-    background-color: antiquewhite;
-    outline: none;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 1vw;
+    color: grey;
+}
+
+.btn_back {
+    width: 100%;
+    height: 100%;
+    background-color: grey;
+    padding: 10px;
 }
 
 .buttons{
+    margin: 0 auto;
+    justify-content: center;
     padding: 5px;
-    margin: 13px;
+
+}
+.btn {
+    color: black;
+    background: whitesmoke;
+    border: none;
+    padding: 15px;
+    border-radius: 20%;
+    cursor: pointer; 
+}
+
+.sidetext {
+    background-color: antiquewhite;
+    width: 100%;
+    float: right;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    white-space: normal;
+}
+
+.blank {
+    display: flex;
+    background-color: antiquewhite;
+    width: 100%;
+    height: 100%;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.morepics {
+    float: left;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.copyright {
+    float: right;
+    margin-left: auto;
+    padding: 10px;
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: darkslategray;
+    color: whitesmoke;
+    font-size: 2vw;
+    font-weight: bold;
+
 }
