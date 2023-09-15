@@ -28,13 +28,13 @@ Texts | [HTML](docs/bootstraps/texts.html)
 ## 🌙 Learning CSSs
 Section | Link
 --- | ---
-Boxes | [HTML] (docs/CSSs/box_models.html)
-Flex | [HTML] (docs/CSSs/flex.html)
-Images | [HTML] (docs/CSSs/images.html)
-Inline CSSs | [HTML] (docs/CSSs/inlineCSS.html)
-Internal / External CSSs| [HTML] (docs/CSSs/internalCSS.html)
-Texts | [HTML] (docs/CSSs/texts.html)
-Units | [HTML] (docs/CSSs/units.html)
+Boxes | [HTML](docs/CSSs/box_models.html)
+Flex | [HTML](docs/CSSs/flex.html)
+Images | [HTML](docs/CSSs/images.html)
+Inline CSSs | [HTML](docs/CSSs/inlineCSS.html)
+Internal / External CSSs| [HTML](docs/CSSs/internalCSS.html)
+Texts | [HTML](docs/CSSs/texts.html)
+Units | [HTML](docs/CSSs/units.html)
 
 ## Practice
 
