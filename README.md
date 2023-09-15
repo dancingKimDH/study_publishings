@@ -40,7 +40,7 @@ Units | ---
 
 1. Text
 
- 
+ https://github.com/dancingKimDH/study_publishings/issues/2#issue-1897637652
 
 3. Flex and Grid
 
