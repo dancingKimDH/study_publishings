@@ -13,28 +13,28 @@ How to adopt Bootstrap in the HTMLs
 Section | Link
 --- | ---
 Buttons | [HTML](docs/bootstraps/buttons.html)
-Cards | ---
-Carousels | ---
-Dropdowns | ---
-Forms | ---
-Grids | ---
-Images | ---
-Index | ---
-Listing Groups | ---
-Modals | ---
-Navigators | ---
-Texts | ---
+Cards | [HTML](docs/bootstraps/cards.html)
+Carousels | [HTML](docs/bootstraps/carousels.html)
+Dropdowns | [HTML](docs/bootstraps/dropdowns.html)
+Forms | [HTML](docs/bootstraps/forms.html)
+Grids | [HTML](docs/bootstraps/grids.html)
+Images | [HTML](docs/bootstraps/images.html)
+Index | [HTML](docs/bootstraps/index.html)
+Listing Groups | [HTML](docs/bootstraps/list_groups.html)
+Modals | [HTML](docs/bootstraps/modals.html)
+Navigators | [HTML](docs/bootstraps/navbars.html)
+Texts | [HTML](docs/bootstraps/texts.html)
 
 ## 🌙 Learning CSSs
 Section | Link
 --- | ---
-Boxes | ---
-Flex | ---
-Images | ---
-Inline CSSs | ---
-Internal / External CSSs| ---
-Texts | ---
-Units | ---
+Boxes | [HTML] (docs/CSSs/box_models.html)
+Flex | [HTML] (docs/CSSs/flex.html)
+Images | [HTML] (docs/CSSs/images.html)
+Inline CSSs | [HTML] (docs/CSSs/inlineCSS.html)
+Internal / External CSSs| [HTML] (docs/CSSs/internalCSS.html)
+Texts | [HTML] (docs/CSSs/texts.html)
+Units | [HTML] (docs/CSSs/units.html)
 
 ## Practice
 
