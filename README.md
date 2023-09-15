@@ -42,7 +42,7 @@ Units | ---
 
 2. Flex and Grid
 
-https://user-images.githubusercontent.com/132973383/268162794-3dce305d-ef2c-4ef2-9119-525c13fc2939.PNG
+ ![initial](https://user-images.githubusercontent.com/132973383/268162794-3dce305d-ef2c-4ef2-9119-525c13fc2939.PNG)
 
 3. 
 
